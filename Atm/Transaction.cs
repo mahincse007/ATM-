@@ -51,22 +51,10 @@ namespace Atm
             Console.WriteLine("\n 1 Balance Check \n 2 Deposit \n 3 Withdrawal \n 0 Exit");
             var choise = Int32.Parse(Console.ReadLine());
 
-            if(choise == 1)
-            {
-                BalanceChk();
-            }
-            else if(choise == 2)
-            {
-                Deposit();
-            }
-            else if(choise == 3)
-            {
-                Withdrawal();
-            }
-            else if(choise == 0)
-            {
-                Start();
-            }
+            if(choise == 1){ BalanceChk(); }
+            else if(choise == 2){ Deposit(); }
+            else if(choise == 3){ Withdrawal(); }
+            else if(choise == 0){ Start(); }
 
             Display();
         }
