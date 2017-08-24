@@ -84,6 +84,12 @@ namespace Atm
             Console.WriteLine("\n Enter your amount : ");
             double amount = Int32.Parse(Console.ReadLine());
             
+            if(balance[cardIndex] < amount )
+            {
+                Console.WriteLine("\n Dont have sufficient balance, try again");
+                Withdrawal();
+            }
+
             balance[cardIndex] -= amount;
             Console.WriteLine("\n Your balance has been updated");
             BalanceChk();
