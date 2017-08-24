@@ -1,0 +1,9 @@
+c:\users\mahin\documents\visual studio 2017\Projects\Atm\Atm\bin\Debug\netcoreapp1.1\Atm.deps.json
+c:\users\mahin\documents\visual studio 2017\Projects\Atm\Atm\bin\Debug\netcoreapp1.1\Atm.runtimeconfig.json
+c:\users\mahin\documents\visual studio 2017\Projects\Atm\Atm\bin\Debug\netcoreapp1.1\Atm.runtimeconfig.dev.json
+c:\users\mahin\documents\visual studio 2017\Projects\Atm\Atm\bin\Debug\netcoreapp1.1\Atm.dll
+c:\users\mahin\documents\visual studio 2017\Projects\Atm\Atm\bin\Debug\netcoreapp1.1\Atm.pdb
+c:\users\mahin\documents\visual studio 2017\Projects\Atm\Atm\obj\Debug\netcoreapp1.1\Atm.csprojResolveAssemblyReference.cache
+c:\users\mahin\documents\visual studio 2017\Projects\Atm\Atm\obj\Debug\netcoreapp1.1\Atm.AssemblyInfo.cs
+c:\users\mahin\documents\visual studio 2017\Projects\Atm\Atm\obj\Debug\netcoreapp1.1\Atm.dll
+c:\users\mahin\documents\visual studio 2017\Projects\Atm\Atm\obj\Debug\netcoreapp1.1\Atm.pdb
