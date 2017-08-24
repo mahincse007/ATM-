@@ -7,14 +7,10 @@ namespace Atm
 {
     class Transaction
     {
-
+        int userCard;
         int[] card = new int[3] { 111, 222, 333 };
         int[] pin = new int[3] { 1111, 2222, 3333 };
         double[] balance = new double[3] { 10000, 20000, 50000 };
-
-        int userCard ;
-
-        public object Application { get; private set; }
 
         public void Start()
         {
@@ -86,6 +82,5 @@ namespace Atm
             Console.WriteLine("\n Your balance has been updated");
             BalanceChk();
         }
-
     }
 }

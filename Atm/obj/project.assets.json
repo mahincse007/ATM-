@@ -7042,10 +7042,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\users\\mahin\\documents\\visual studio 2017\\Projects\\Atm\\Atm\\Atm.csproj",
+      "projectUniqueName": "C:\\Users\\MAHIN\\documents\\visual studio 2017\\Projects\\Atm\\Atm\\Atm.csproj",
       "projectName": "Atm",
-      "projectPath": "c:\\users\\mahin\\documents\\visual studio 2017\\Projects\\Atm\\Atm\\Atm.csproj",
-      "outputPath": "c:\\users\\mahin\\documents\\visual studio 2017\\Projects\\Atm\\Atm\\obj\\",
+      "projectPath": "C:\\Users\\MAHIN\\documents\\visual studio 2017\\Projects\\Atm\\Atm\\Atm.csproj",
+      "outputPath": "C:\\Users\\MAHIN\\documents\\visual studio 2017\\Projects\\Atm\\Atm\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
