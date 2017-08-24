@@ -8,6 +8,7 @@ namespace Atm
     class Transaction
     {
         int userCard;
+        int cardIndex; 
         int[] card = new int[3] { 111, 222, 333 };
         int[] pin = new int[3] { 1111, 2222, 3333 };
         double[] balance = new double[3] { 10000, 20000, 50000 };
@@ -24,6 +25,7 @@ namespace Atm
                 Start();
             }
             userCard = inputCard;
+            cardIndex = Array.IndexOf(card, userCard);
             PinChk();
             Display();
         }
@@ -34,6 +36,13 @@ namespace Atm
             var inputPin = Int32.Parse(Console.ReadLine());
 
             if (!pin.Contains(inputPin))
+            {
+                Console.WriteLine("\n Wrong PIN, please try again");
+                Console.WriteLine();
+                PinChk();
+            }
+
+            if(pin[cardIndex] != inputPin)
             {
                 Console.WriteLine("\n Wrong PIN, please try again");
                 Console.WriteLine();
@@ -57,7 +66,6 @@ namespace Atm
 
         public void BalanceChk()
         {
-            int cardIndex = Array.IndexOf(card, userCard);
             Console.WriteLine("\n Your current Balance is : " + balance[cardIndex]);
         }
 
@@ -66,7 +74,6 @@ namespace Atm
             Console.WriteLine("\n Enter your amount : ");
             double amount = Int32.Parse(Console.ReadLine());
 
-            int cardIndex = Array.IndexOf(card, userCard);
             balance[cardIndex] += amount;
             Console.WriteLine("\n Your balance has been updated");
             BalanceChk();
@@ -76,8 +83,7 @@ namespace Atm
         {
             Console.WriteLine("\n Enter your amount : ");
             double amount = Int32.Parse(Console.ReadLine());
-
-            int cardIndex = Array.IndexOf(card, userCard);
+            
             balance[cardIndex] -= amount;
             Console.WriteLine("\n Your balance has been updated");
             BalanceChk();
